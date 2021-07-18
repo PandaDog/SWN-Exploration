@@ -24,9 +24,10 @@ def selectJsonFile():
 
 
 def loadJson(filePath):
-    with open(filePath) as json_file:
-        data = json.load(json_file)
-        return data
+    with open(filePath, 'r', encoding="UTF-8") as json_file:
+        data = json_file.read()
+        structure = json.loads(data)
+        return structure
     # Example Macro &{template:default} {{name=Shift fires his gun!}} {{Laser Pistol:=[[d20+4]] vs AC}}  {{Damage:=[[1d6+1]]}}
 
 
@@ -38,7 +39,7 @@ def main():
     print("Select your Json file.")
     jsonPath = selectJsonFile()
     data = loadJson(jsonPath)
-    print(data)
+    print(json.dumps(data, indent=1))
 
 
     # If not importing. run main function

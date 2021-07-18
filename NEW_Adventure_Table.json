@@ -9,40 +9,40 @@
             "Elements of both sides seek accommodation",
             "The conflict is only viable in a narrow location",
             "Catastrophic cost of losing a direct showdown",
-            "Each thinks they’ll win without further exertion",
+            "Each thinks theyll win without further exertion",
             "They expect a better opening to appear soon",
             "Former ties of friendship or family restrain them",
             "Religious principles are constraining them",
-            "One side’s still licking their wounds after a failure",
-            "They’re building up force to make sure they win",
+            "One sides still licking their wounds after a failure",
+            "Theyre building up force to make sure they win",
             "Their cultural context makes open struggle hard",
             "They expect an outside power to hand them a win",
-            "They’re still searching for a way to get at their goal",
-            "One side mistakenly thinks they’ve already won",
+            "Theyre still searching for a way to get at their goal",
+            "One side mistakenly thinks theyve already won",
             "A side is busy integrating a recent success",
             "An outside power threatens both sides"
         ],
         "twists": [
-            "There’s a very sharp time limit for any resolution",
+            "Theres a very sharp time limit for any resolution",
             "The sympathetic side is actually a bunch of bastards",
-            "There’s an easy but very repugnant solution to hand",
+            "Theres an easy but very repugnant solution to hand",
             "PC success means a big benefit to a hostile group",
             "The real bone of contention is hidden from most",
-            "A sympathetic figure’s on an unsympathetic side",
-            "There’s a profitable chance for PCs to turn traitor",
+            "A sympathetic figures on an unsympathetic side",
+            "Theres a profitable chance for PCs to turn traitor",
             "The “winner” will actually get in terrible trouble",
-            "There’s a very appealing third party in the mix",
+            "Theres a very appealing third party in the mix",
             "The PCs could really profit off the focus of the strife",
             "The PCs are mistaken for an involved group",
             "Somebody plans on screwing over the PCs",
             "Both sides think the PCs are working for them",
             "A side wants to use the PCs as a distraction for foes",
-            "The PCs’ main contact is mistrusted by their allies",
-            "If the other side can’t get it, they’ll destroy it",
-            "The focus isn’t nearly as valuable as both sides think",
+            "The PCs main contact is mistrusted by their allies",
+            "If the other side cant get it, theyll destroy it",
+            "The focus isnt nearly as valuable as both sides think",
             "The focus somehow has its own will and goals",
             "Victory will drastically change one of the sides",
-            "Actually, there is no twist. It’s all exactly as it seems."
+            "Actually, there is no twist. Its all exactly as it seems."
         ]
     },
     "conflict_type": {
@@ -51,7 +51,7 @@
                 "Money is owed to a ruthless creditor",
                 "Money was stolen from someone",
                 "A sudden profit opportunity arises",
-                "There’s a hidden stash of wealth",
+                "Theres a hidden stash of wealth",
                 "Money is offered from an evil source"
             ],
             "specific_focus": [
@@ -67,7 +67,7 @@
                 "Someone was murdered",
                 "Someone was stripped of rank",
                 "Someone lost all their wealth",
-                "Someone lost someone’s love",
+                "Someone lost someones love",
                 "Someone was framed for a crime"
             ],
             "specific_focus": [
@@ -87,11 +87,11 @@
                 "A criminal boss or outcast leader"
             ],
             "specific_focus": [
-                "They’ve betrayed their own",
-                "Someone’s gunning for them",
+                "Theyve betrayed their own",
+                "Someones gunning for them",
                 "They made a terrible choice",
                 "They usurped their position",
-                "They’re oppressing their own"
+                "Theyre oppressing their own"
             ]
         },
         "Natural_Danger": {
@@ -107,7 +107,7 @@
                 "Religious zealots panic",
                 "Bandits and looters strike",
                 "The government hushes it up",
-                "There’s money in exploiting it"
+                "Theres money in exploiting it"
             ]
         },
         "Religion": {
@@ -130,7 +130,7 @@
             "overall_situation": [
                 "A universally-despised fringe group",
                 "Terrorists with widespread support",
-                "A political party’s goon squads",
+                "A political partys goon squads",
                 "Dead-end former regime supporters",
                 "Ruthless ascendant political group"
             ],
@@ -160,7 +160,7 @@
         },
         "Resources": {
             "overall_situation": [
-                "There’s a cache of illegal materials",
+                "Theres a cache of illegal materials",
                 "A hidden strike of rare resources",
                 "Cargo has been abandoned as lost",
                 "Land ownership is disputed",
@@ -182,7 +182,7 @@
             "Xenophilic interest in the novelty of the PCs",
             "Pragmatic and businesslike",
             "Romantically interested in one or more PCs",
-            "A slimy used-gravcar dealer’s approach",
+            "A slimy used-gravcar dealers approach",
             "Wide-eyed awe at the PCs",
             "Cool and superior attitude toward PC “hirelings”",
             "Benevolently patronizing toward outsiders",
@@ -194,30 +194,30 @@
             "Visibly uncomfortable with the PCs",
             "Grossly overconfident in PC abilities",
             "Somewhat frightened by the PCs",
-            "Deeply misunderstanding the PCs’ culture",
-            "Extremely well-informed about the PCs’ past",
+            "Deeply misunderstanding the PCs culture",
+            "Extremely well-informed about the PCs past",
             "Distracted by their current situation"
         ],
         "default_deal_outcome": [
-            "They’ll screw the PCs over even at their own cost",
+            "Theyll screw the PCs over even at their own cost",
             "They firmly intend to actively betray the PCs",
-            "They won’t keep the deal unless driven to it",
+            "They wont keep the deal unless driven to it",
             "They plan to twist the deal to their own advantage",
-            "They won’t keep their word unless it’s profitable",
-            "They’ll flinch from paying up when the time comes",
+            "They wont keep their word unless its profitable",
+            "Theyll flinch from paying up when the time comes",
             "They mean to keep the deal, but are reluctant",
-            "They’ll keep most of the deal, but not all of it",
-            "They’ll keep the deal slowly and grudgingly",
-            "They’ll keep the deal but won’t go out of their way",
-            "They’ll be reasonably punctual about the deal",
-            "They’ll want a further small favor to pay up on it",
-            "They’ll keep the deal in a way that helps them",
-            "They’ll keep the deal if it’s still good for them",
-            "They’ll offer a bonus for an additional favor",
-            "Trustworthy as long as the deal won’t hurt them",
+            "Theyll keep most of the deal, but not all of it",
+            "Theyll keep the deal slowly and grudgingly",
+            "Theyll keep the deal but wont go out of their way",
+            "Theyll be reasonably punctual about the deal",
+            "Theyll want a further small favor to pay up on it",
+            "Theyll keep the deal in a way that helps them",
+            "Theyll keep the deal if its still good for them",
+            "Theyll offer a bonus for an additional favor",
+            "Trustworthy as long as the deal wont hurt them",
             "Trustworthy, with the NPC following through",
-            "They’ll be very fair in keeping to their agreements",
-            "They’ll keep bargains even to their own cost",
+            "Theyll be very fair in keeping to their agreements",
+            "Theyll keep bargains even to their own cost",
             "Complete and righteous integrity to the bitter end"
         ],
         "motivation": [
@@ -236,7 +236,7 @@
             "Driving out or killing an enemy group",
             "Deposing a rival to them in their line of work",
             "Getting away from this world or society",
-            "Promote a friend or offspring’s career or future",
+            "Promote a friend or offsprings career or future",
             "Taking control of a property or piece of land",
             "Building a structure or a complex prototype tech",
             "Perform or create their art to vast acclaim",
@@ -249,8 +249,8 @@
             "Kidnap or non-fatally eliminate a particular NPC",
             "Pay them a large amount of money",
             "Take a message to someone hard to reach",
-            "Acquire a tech component that’s hard to get",
-            "Find proof of a particular NPC’s malfeasance",
+            "Acquire a tech component thats hard to get",
+            "Find proof of a particular NPCs malfeasance",
             "Locate a missing NPC",
             "Bring someone to a destination via dangerous travel",
             "Retrieve a lost or stolen object",
@@ -265,17 +265,17 @@
             "Force a person or group to leave an area"
         ],
         "power": [
-            "They’re just really appealing and sympathetic to PCs",
+            "Theyre just really appealing and sympathetic to PCs",
             "They have considerable liquid funds",
             "They control the use of large amounts of violence",
             "They have a position of great social status",
-            "They’re a good friend of an important local leader ",
+            "Theyre a good friend of an important local leader ",
             "They have blackmail info on the PCs",
             "They have considerable legal influence here",
             "They have tech the PCs might reasonably want",
             "They can get the PCs into a place they want to go",
             "They know where significant wealth can be found",
-            "They have information about the PCs’ current goa",
+            "They have information about the PCs current goa",
             "An NPC the PCs need has implicit trust in them",
             "The NPC can threaten someone the PCs like",
             "They control a business relevant to PC needs",
@@ -283,7 +283,7 @@
             "They have pull with the local religion",
             "They know a great many corrupt politicians",
             "They can alert the PCs to an unexpected peril",
-            "They’re able to push a goal the PCs currently have",
+            "Theyre able to push a goal the PCs currently have",
             "They can get the PCs useful permits and rights"
         ],
         "hook": [
@@ -437,7 +437,7 @@
             "Someone is being blamed for something",
             "Fires or building collapses are happening",
             "A medical emergency is happening",
-            "Someone’s trying to cheat the PCs",
+            "Someones trying to cheat the PCs",
             "A vehicle accident is happening",
             "A religious ceremony is being disrupted"
         ],
@@ -473,14 +473,14 @@
             "Streetlights are out or visibility is low",
             "A cop patrol is here and reluctant to act",
             "PC-hostile reporters are recording here",
-            "Someone’s trying to sell something to PCs",
+            "Someones trying to sell something to PCs",
             "Feral dogs or other animals crowd here",
             "Unrelated activists are protesting here",
             "Street kids are trying to steal from the PCs",
             "GPS maps are dangerously wrong here",
             "Downed power lines are a danger here",
             "Numerous open manholes and utility holes",
-            "The street’s blockaded by something",
+            "The streets blockaded by something",
             "Crowds so thick one can barely move"
         ]
     },
@@ -496,12 +496,12 @@
         "Nature": [
             "Attack by pack of hostiles",
             "Ambush by single lone hostile",
-            "Meet people who don’t want to be met",
+            "Meet people who dont want to be met",
             "Encounter people in need of aid",
             "Encounter hostile creatures",
             "Nearby feature is somehow dangerous",
             "Nearby feature promises useful loot",
-            "Meet hostiles that aren’t immediately so"
+            "Meet hostiles that arent immediately so"
         ],
         "Friendlies": [
             "Affable but reclusive hermit",
@@ -548,7 +548,7 @@
             "Ruins of a ghost town or lost hamlet",
             "Hunting cabin with necessities",
             "Ill-tended graveyard of a lost family stead",
-            "Narrow pass that’s easily blocked",
+            "Narrow pass thats easily blocked",
             "Dilapidated resort building",
             "Remote government monitoring outpost",
             "Illicit substance farm or processing center",
@@ -586,7 +586,7 @@
             "They have a persistent sickness",
             "They hate their job or life situation",
             "Someone dangerous is targeting them",
-            "They’re pursuing a disastrous purpose",
+            "Theyre pursuing a disastrous purpose",
             "They have no problems worth mentioning"
         ],
         "Age": [
