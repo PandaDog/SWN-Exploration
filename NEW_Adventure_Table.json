@@ -309,16 +309,117 @@
             "Always found with henchmen or friends"
         ]
     },
+    "Places": {
+        "Rewards": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Civilized_Ongoings": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Wilderness_Ongoings": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Hazard": {
+            "Social": {
+                "Specific_Example": [],
+                "Possible_Danger": []
+            },
+            "Legal": {
+                "Specific_Example": [],
+                "Possible_Danger": []
+            },
+            "Environmental": {
+                "Specific_Example": [],
+                "Possible_Danger": []
+            },
+            "Trap": {
+                "Specific_Example": [],
+                "Possible_Danger": []
+            },
+            "Animal": {
+                "Specific_Example": [],
+                "Possible_Danger": []
+            },
+            "Sentient": {
+                "Specific_Example": [],
+                "Possible_Danger": []
+            },
+            "Decay": {
+                "Specific_Example": [],
+                "Possible_Danger": []
+            },
+            "PC-induced": {
+                "Specific_Example": [],
+                "Possible_Danger": []
+            }
+        }
+    },
     "Encounters": {
-        "Weather_Lighting": {
+        "Weather_Lighting": [
             "Takes place in daylight and clear weather",
             "Daylight, but fog, mist, rain or the like",
             "Daylight, but harsh seasonal weather",
             "Night encounter, but clear weather",
             "Night, with rain or other obscuring effects",
             "Night, with terrible weather and wind"
-        },
-        "Nature": {
+        ],
+        "Nature": [
             "Attack by pack of hostiles",
             "Ambush by single lone hostile",
             "Meet people who don’t want to be met",
@@ -327,8 +428,8 @@
             "Nearby feature is somehow dangerous",
             "Nearby feature promises useful loot",
             "Meet hostiles that aren’t immediately so"
-        },
-        "Friendlies": {
+        ],
+        "Friendlies": [
             "Affable but reclusive hermit",
             "Local herd animal let loose to graze",
             "Government ranger or circuit judge",
@@ -339,14 +440,14 @@
             "Hiker or wilderness tourist",
             "Religious recluse or holy person",
             "Impoverished social exile"
-        },
-        "Range": {
+        ],
+        "Range": [
             "Visible from a long distance away",
             "Noticed 1d4 hundred meters away",
             "Noticed only within 1d6 x 10 meters",
-            "Noticed only when adjacent to the event",
-        },
-        "Hostiles": {
+            "Noticed only when adjacent to the event"
+        ],
+        "Hostiles": [
             "Bandits in their wilderness hideout",
             "Dangerous locals looking for easy marks",
             "Rabid or diseased large predator",
@@ -359,8 +460,8 @@
             "Friendly-seeming guide into lethal danger",
             "Harmless-looking but dangerous beast",
             "Confidence man seeking to gull the PCs"
-        },
-        "Feature": {
+        ],
+        "Feature": [
             "Overgrown homestead",
             "Steam prone to flash-flooding",
             "Narrow bridge or beam over deep cleft",
@@ -381,6 +482,6 @@
             "Zone overrun by dangerous plants",
             "Thick growth that lights up at a spark",
             "Abandoned vehicle"
-        }
+        ]
     }
 }
