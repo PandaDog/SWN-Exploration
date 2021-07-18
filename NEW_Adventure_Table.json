@@ -410,86 +410,6 @@
             }
         }
     },
-    "Problem": {
-        "restraints": [
-            "The government is cracking down on the conflict",
-            "One side seems invincibly stronger to the other",
-            "Both sides have “doomsday” info or devices",
-            "4 A prior conflict ended horribly for both of them",
-            "Foreign participants are keeping things tamped",
-            "Elements of both sides seek accommodation",
-            "The conflict is only viable in a narrow location",
-            "Catastrophic cost of losing a direct showdown",
-            "Each thinks they’ll win without further exertion",
-            "They expect a better opening to appear soon",
-            "Former ties of friendship or family restrain them",
-            "Religious principles are constraining them",
-            "One side’s still licking their wounds after a failure",
-            "They’re building up force to make sure they win",
-            "Their cultural context makes open struggle hard",
-            "They expect an outside power to hand them a win",
-            "They’re still searching for a way to get at their goal",
-            "One side mistakenly thinks they’ve already won",
-            "A side is busy integrating a recent success",
-            "An outside power threatens both sides"
-        ],
-        "twists": [
-            "There’s a very sharp time limit for any resolution",
-            "The sympathetic side is actually a bunch of bastards",
-            "There’s an easy but very repugnant solution to hand",
-            "PC success means a big benefit to a hostile group",
-            "The real bone of contention is hidden from most",
-            "A sympathetic figure’s on an unsympathetic side",
-            "There’s a profitable chance for PCs to turn traitor",
-            "The “winner” will actually get in terrible trouble",
-            "There’s a very appealing third party in the mix",
-            "The PCs could really profit off the focus of the strife",
-            "The PCs are mistaken for an involved group",
-            "Somebody plans on screwing over the PCs",
-            "Both sides think the PCs are working for them",
-            "A side wants to use the PCs as a distraction for foes",
-            "The PCs’ main contact is mistrusted by their allies",
-            "If the other side can’t get it, they’ll destroy it",
-            "The focus isn’t nearly as valuable as both sides think",
-            "The focus somehow has its own will and goals",
-            "Victory will drastically change one of the sides",
-            "Actually, there is no twist. It’s all exactly as it seems."
-        ]
-    },
-    "conflict_type": {
-        "Money": {
-            "overall_situation": {},
-            "specific_focus": {}
-        },
-        "Revenge": {
-            "overall_situation": {},
-            "specific_focus": {}
-        },
-        "Power": {
-            "overall_situation": {},
-            "specific_focus": {}
-        },
-        "Natural_Danger": {
-            "overall_situation": {},
-            "specific_focus": {}
-        },
-        "Religion": {
-            "overall_situation": {},
-            "specific_focus": {}
-        },
-        "Ideology": {
-            "overall_situation": {},
-            "specific_focus": {}
-        },
-        "Ethnicity": {
-            "overall_situation": {},
-            "specific_focus": {}
-        },
-        "Resources": {
-            "overall_situation": {},
-            "specific_focus": {}
-        }
-    },
     "Urban_Encounters": {
         "General_Venue": [
             "In the middle of the street",
@@ -636,6 +556,80 @@
             "Zone overrun by dangerous plants",
             "Thick growth that lights up at a spark",
             "Abandoned vehicle"
+        ]
+    },
+    "oneroll_npc": {
+        "Background": [
+            "The local underclass or poorest natives",
+            "Common laborers or cube workers",
+            "Aspiring bourgeoise or upper class",
+            "The elite of this society",
+            "Minority or foreigners; reroll on 1d4",
+            "Offworlders or exotics; reroll on 1d4"
+        ],
+        "Role": [
+            "Criminal, thug, thief, swindler",
+            "Menial, cleaner, retail worker, servant",
+            "Unskilled heavy labor, porter, construction",
+            "Skilled trade, electrician, mechanic, pilot",
+            "Idea worker, programmer, writer",
+            "Merchant, business owner, trader, banker",
+            "Official, bureaucrat, courtier, clerk",
+            "Military, soldier, enforcer, law officer"
+        ],
+        "Problem": [
+            "They have significant debt or money woes",
+            "A loved one is in trouble; reroll for it",
+            "Romantic failure with a desired person",
+            "Drug or behavioral addiction",
+            "Their superior dislikes or resents them",
+            "They have a persistent sickness",
+            "They hate their job or life situation",
+            "Someone dangerous is targeting them",
+            "They’re pursuing a disastrous purpose",
+            "They have no problems worth mentioning"
+        ],
+        "Age": [
+            "Unusually young or old for their role",
+            "Young adult",
+            "Mature prime",
+            "Middle-aged or elderly"
+        ],
+        "Desire": [
+            "They want a particular romantic partner",
+            "They want money for them or a loved one",
+            "They want a promotion in their job",
+            "They want answers about a past trauma",
+            "They want revenge on an enemy",
+            "They want to help a beleaguered friend",
+            "They want an entirely different job",
+            "They want protection from an enemy",
+            "They want to leave their current life",
+            "They want fame and glory",
+            "They want power over those around them",
+            "They have everything they want from life"
+        ],
+        "Trait": [
+            "Ambition",
+            "Avarice",
+            "Bitterness",
+            "Courage",
+            "Cowardice",
+            "Curiosity",
+            "Deceitfulness",
+            "Determination",
+            "Devotion to a cause",
+            "Filiality",
+            "Hatred",
+            "Honesty",
+            "Hopefulness",
+            "Love of a person",
+            "Nihilism",
+            "Paternalism",
+            "Pessimism",
+            "Protectiveness",
+            "Resentment",
+            "Shame"
         ]
     }
 }
