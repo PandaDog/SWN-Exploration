@@ -1,0 +1,156 @@
+{
+    "Problem": {
+        "restraints": [
+            "The government is cracking down on the conflict",
+            "One side seems invincibly stronger to the other",
+            "Both sides have “doomsday” info or devices",
+            "4 A prior conflict ended horribly for both of them",
+            "Foreign participants are keeping things tamped",
+            "Elements of both sides seek accommodation",
+            "The conflict is only viable in a narrow location",
+            "Catastrophic cost of losing a direct showdown",
+            "Each thinks they’ll win without further exertion",
+            "They expect a better opening to appear soon",
+            "Former ties of friendship or family restrain them",
+            "Religious principles are constraining them",
+            "One side’s still licking their wounds after a failure",
+            "They’re building up force to make sure they win",
+            "Their cultural context makes open struggle hard",
+            "They expect an outside power to hand them a win",
+            "They’re still searching for a way to get at their goal",
+            "One side mistakenly thinks they’ve already won",
+            "A side is busy integrating a recent success",
+            "An outside power threatens both sides"
+        ],
+        "twists": [
+            "There’s a very sharp time limit for any resolution",
+            "The sympathetic side is actually a bunch of bastards",
+            "There’s an easy but very repugnant solution to hand",
+            "PC success means a big benefit to a hostile group",
+            "The real bone of contention is hidden from most",
+            "A sympathetic figure’s on an unsympathetic side",
+            "There’s a profitable chance for PCs to turn traitor",
+            "The “winner” will actually get in terrible trouble",
+            "There’s a very appealing third party in the mix",
+            "The PCs could really profit off the focus of the strife",
+            "The PCs are mistaken for an involved group",
+            "Somebody plans on screwing over the PCs",
+            "Both sides think the PCs are working for them",
+            "A side wants to use the PCs as a distraction for foes",
+            "The PCs’ main contact is mistrusted by their allies",
+            "If the other side can’t get it, they’ll destroy it",
+            "The focus isn’t nearly as valuable as both sides think",
+            "The focus somehow has its own will and goals",
+            "Victory will drastically change one of the sides",
+            "Actually, there is no twist. It’s all exactly as it seems."
+        ]
+    },
+    "conflict_type": {
+        "Money": {
+            "overall_situation": {},
+            "specific_focus": {}
+        },
+        "Revenge": {
+            "overall_situation": {},
+            "specific_focus": {}
+        },
+        "Power": {
+            "overall_situation": {},
+            "specific_focus": {}
+        },
+        "Natural_Danger": {
+            "overall_situation": {},
+            "specific_focus": {}
+        },
+        "Religion": {
+            "overall_situation": {},
+            "specific_focus": {}
+        },
+        "Ideology": {
+            "overall_situation": {},
+            "specific_focus": {}
+        },
+        "Ethnicity": {
+            "overall_situation": {},
+            "specific_focus": {}
+        },
+        "Resources": {
+            "overall_situation": {},
+            "specific_focus": {}
+        }
+    },
+    "Encounters": {
+        "General_Venue": {
+          "In the middle of the street",
+          "In a public plaza",
+          "Down a side alley",
+          "Inside a local business",
+          "Next to or in a public park",
+          "At a mass-transit station"
+        },
+        "Reason_Involved": {
+          "A sympathetic participant appeals to them",
+          "Ways around it are all dangerous/blocked",
+          "It happens immediately around them",
+          "A valuable thing looks snatchable amid it",
+          "A participant offers a reward for help",
+          "Someone mistakenly involves the PCs in it",
+          "The seeming way out just leads deeper in",
+          "Responsibility is somehow pinned on them"
+        },
+        "Event_Nature": {
+          "A parade or festival is being disrupted",
+          "Innocents are being assaulted",
+          "An establishment is being robbed",
+          "A disturbance over local politics happens",
+          "Someone is being blamed for something",
+          "Fires or building collapses are happening",
+          "A medical emergency is happening",
+          "Someone’s trying to cheat the PCs",
+          "A vehicle accident is happening",
+          "A religious ceremony is being disrupted"
+        },
+        "Conflict": {
+          "Money, extortion, payment due, debts",
+          "Respect, submission to social authority",
+          "Grudges, ethnic resentment, gang payback",
+          "Politics, religion, or other ideology"
+        },
+        "Antagonist": {
+          "A local bully and their thugs",
+          "A ruthless political boss and their zealots",
+          "Violent criminals",
+          "Religious fanatics",
+          "A blisteringly obnoxious offworlder",
+          "Corrupt or over-strict government official",
+          "A mob of intoxicated locals",
+          "A ranting demagogue and their followers",
+          "A stupidly bull-headed local grandee",
+          "A very capable assassin or strong-arm",
+          "A self-centered local scion of power",
+          "A confused foreigner or backwoodsman"
+        },
+        "Feature": {
+          "Heavy traffic running through the place",
+          "Music blaring at deafening volumes",
+          "Two groups present that detest each other",
+          "Large delivery taking place right there",
+          "Swarm of schoolkids or feral youth",
+          "Insistent soapbox preacher here",
+          "Several pickpockets working the crowd",
+          "A kiosk is tipping over and spilling things",
+          "Streetlights are out or visibility is low",
+          "A cop patrol is here and reluctant to act",
+          "PC-hostile reporters are recording here",
+          "Someone’s trying to sell something to PCs",
+          "Feral dogs or other animals crowd here",
+          "Unrelated activists are protesting here",
+          "Street kids are trying to steal from the PCs",
+          "GPS maps are dangerously wrong here",
+          "Downed power lines are a danger here",
+          "Numerous open manholes and utility holes",
+          "The street’s blockaded by something",
+          "Crowds so thick one can barely move"
+        }
+    }
+}
