@@ -1,5 +1,5 @@
 {
-    "Problem": {
+    "problem": {
         "restraints": [
             "The government is cracking down on the conflict",
             "One side seems invincibly stronger to the other",
@@ -45,7 +45,7 @@
             "Actually, there is no twist. Its all exactly as it seems."
         ]
     },
-    "conflict_type": {
+    "conflictType": {
         "Money": {
             "overall_situation": [
                 "Money is owed to a ruthless creditor",
@@ -175,7 +175,7 @@
             ]
         }
     },
-    "NPC": {
+    "npc": {
         "init_manner": [
             "Ingratiating and cloying",
             "Grim suspicion of the PCs or their backers",
@@ -309,7 +309,7 @@
             "Always found with henchmen or friends"
         ]
     },
-    "Places": {
+    "places": {
         "Rewards": [
             "",
             "",
@@ -410,7 +410,7 @@
             }
         }
     },
-    "Urban_Encounters": {
+    "urbanEncounters": {
         "General_Venue": [
             "In the middle of the street",
             "In a public plaza",
@@ -484,7 +484,7 @@
             "Crowds so thick one can barely move"
         ]
     },
-    "Wilderness_Encounters": {
+    "wildernessEncounters": {
         "Weather_Lighting": [
             "Takes place in daylight and clear weather",
             "Daylight, but fog, mist, rain or the like",
