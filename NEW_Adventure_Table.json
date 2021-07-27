@@ -46,15 +46,15 @@
         ]
     },
     "conflictType": {
-        "Money": {
-            "overall_situation": [
+        "money": {
+            "overallSituation": [
                 "Money is owed to a ruthless creditor",
                 "Money was stolen from someone",
                 "A sudden profit opportunity arises",
                 "Theres a hidden stash of wealth",
                 "Money is offered from an evil source"
             ],
-            "specific_focus": [
+            "specificFocus": [
                 "Organized crime wants it",
                 "Corrupt officials want it",
                 "A sympathetic NPC needs it",
@@ -62,15 +62,15 @@
                 "It will disappear very soon"
             ]
         },
-        "Revenge": {
-            "overall_situation": [
+        "revenge": {
+            "overallSituation": [
                 "Someone was murdered",
                 "Someone was stripped of rank",
                 "Someone lost all their wealth",
                 "Someone lost someones love",
                 "Someone was framed for a crime"
             ],
-            "specific_focus": [
+            "specificFocus": [
                 "It was wholly justified",
                 "The wrong person is targeted",
                 "The reaction is excessive",
@@ -78,15 +78,15 @@
                 "Both sides were wronged"
             ]
         },
-        "Power": {
-            "overall_situation": [
+        "power": {
+            "overallSituation": [
                 "An influential political leader",
                 "A stern community elder",
                 "A ruling patriarch of a large family",
                 "A star expert in a particular industry",
                 "A criminal boss or outcast leader"
             ],
-            "specific_focus": [
+            "specificFocus": [
                 "Theyve betrayed their own",
                 "Someones gunning for them",
                 "They made a terrible choice",
@@ -94,15 +94,15 @@
                 "Theyre oppressing their own"
             ]
         },
-        "Natural_Danger": {
-            "overall_situation": [
+        "naturalDanger": {
+            "overallSituation": [
                 "A cyclical planetary phenomenon",
                 "A sudden natural disaster",
                 "Sudden loss of vital infrastructure",
                 "Catastrophe from outside meddling",
                 "Formerly-unknown planetary peril"
             ],
-            "specific_focus": [
+            "specificFocus": [
                 "Anti-helpful bureaucrats",
                 "Religious zealots panic",
                 "Bandits and looters strike",
@@ -110,15 +110,15 @@
                 "Theres money in exploiting it"
             ]
         },
-        "Religion": {
-            "overall_situation": [
+        "religion": {
+            "overallSituation": [
                 "Sects that hate each other bitterly",
                 "Zealot reformers forcing new things",
                 "Radical traditionalists fighting back",
                 "Ethnic religious divisions",
                 "Corrupt and decadent institutions"
             ],
-            "specific_focus": [
+            "specificFocus": [
                 "Charismatic new leader",
                 "Mandatory state religion",
                 "Heavy foreign influence",
@@ -126,15 +126,15 @@
                 "Fighting for holy ground"
             ]
         },
-        "Ideology": {
-            "overall_situation": [
+        "ideology": {
+            "overallSituation": [
                 "A universally-despised fringe group",
                 "Terrorists with widespread support",
                 "A political partys goon squads",
                 "Dead-end former regime supporters",
                 "Ruthless ascendant political group"
             ],
-            "specific_focus": [
+            "specificFocus": [
                 "Terrorist attack",
                 "Street rioting",
                 "Police state crackdown",
@@ -142,15 +142,15 @@
                 "Territory under hostile rule"
             ]
         },
-        "Ethnicity": {
-            "overall_situation": [
+        "ethnicity": {
+            "overallSituation": [
                 "A traditionally subordinate group",
                 "An ethnic group from offworld",
                 "A dominant caste or ethnicity",
                 "An alien or transhuman group",
                 "Two groups that hate each other"
             ],
-            "specific_focus": [
+            "specificFocus": [
                 "Forced immigration",
                 "Official ethnic ghettos",
                 "Rigid separation of groups",
@@ -158,15 +158,15 @@
                 "Rising ethnic violence"
             ]
         },
-        "Resources": {
-            "overall_situation": [
+        "resources": {
+            "overallSituation": [
                 "Theres a cache of illegal materials",
                 "A hidden strike of rare resources",
                 "Cargo has been abandoned as lost",
                 "Land ownership is disputed",
                 "A resource is desperately necessary"
             ],
-            "specific_focus": [
+            "specificFocus": [
                 "Someone thinks they own it",
                 "The state is looking for it",
                 "It has its own protectors",
@@ -176,7 +176,7 @@
         }
     },
     "npc": {
-        "init_manner": [
+        "initManner": [
             "Ingratiating and cloying",
             "Grim suspicion of the PCs or their backers",
             "Xenophilic interest in the novelty of the PCs",
@@ -198,7 +198,7 @@
             "Extremely well-informed about the PCs past",
             "Distracted by their current situation"
         ],
-        "default_deal_outcome": [
+        "defaultDealOutcome": [
             "Theyll screw the PCs over even at their own cost",
             "They firmly intend to actively betray the PCs",
             "They wont keep the deal unless driven to it",
@@ -310,7 +310,7 @@
         ]
     },
     "places": {
-        "Rewards": [
+        "rewards": [
             "",
             "",
             "",
@@ -331,29 +331,7 @@
             "",
             ""
         ],
-        "Civilized_Ongoings": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-        ],
-        "Wilderness_Ongoings": [
+        "civilizedOngoings": [
             "",
             "",
             "",
@@ -375,32 +353,54 @@
             "",
             ""
         ],
-        "Hazard": {
-            "Social": {
+        "wildernessOngoings": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "hazard": {
+            "social": {
                 "Specific_Example": [],
                 "Possible_Danger": []
             },
-            "Legal": {
+            "legal": {
                 "Specific_Example": [],
                 "Possible_Danger": []
             },
-            "Environmental": {
+            "environmental": {
                 "Specific_Example": [],
                 "Possible_Danger": []
             },
-            "Trap": {
+            "trap": {
                 "Specific_Example": [],
                 "Possible_Danger": []
             },
-            "Animal": {
+            "animal": {
                 "Specific_Example": [],
                 "Possible_Danger": []
             },
-            "Sentient": {
+            "sentient": {
                 "Specific_Example": [],
                 "Possible_Danger": []
             },
-            "Decay": {
+            "decay": {
                 "Specific_Example": [],
                 "Possible_Danger": []
             },
@@ -411,7 +411,7 @@
         }
     },
     "urbanEncounters": {
-        "General_Venue": [
+        "generalVenue": [
             "In the middle of the street",
             "In a public plaza",
             "Down a side alley",
@@ -419,7 +419,7 @@
             "Next to or in a public park",
             "At a mass-transit station"
         ],
-        "Reason_Involved": [
+        "reasonInvolved": [
             "A sympathetic participant appeals to them",
             "Ways around it are all dangerous/blocked",
             "It happens immediately around them",
@@ -429,7 +429,7 @@
             "The seeming way out just leads deeper in",
             "Responsibility is somehow pinned on them"
         ],
-        "Event_Nature": [
+        "eventNature": [
             "A parade or festival is being disrupted",
             "Innocents are being assaulted",
             "An establishment is being robbed",
@@ -441,13 +441,13 @@
             "A vehicle accident is happening",
             "A religious ceremony is being disrupted"
         ],
-        "Conflict": [
+        "conflict": [
             "Money, extortion, payment due, debts",
             "Respect, submission to social authority",
             "Grudges, ethnic resentment, gang payback",
             "Politics, religion, or other ideology"
         ],
-        "Antagonist": [
+        "antagonist": [
             "A local bully and their thugs",
             "A ruthless political boss and their zealots",
             "Violent criminals",
@@ -461,7 +461,7 @@
             "A self-centered local scion of power",
             "A confused foreigner or backwoodsman"
         ],
-        "Feature": [
+        "feature": [
             "Heavy traffic running through the place",
             "Music blaring at deafening volumes",
             "Two groups present that detest each other",
@@ -485,7 +485,7 @@
         ]
     },
     "wildernessEncounters": {
-        "Weather_Lighting": [
+        "weatherLighting": [
             "Takes place in daylight and clear weather",
             "Daylight, but fog, mist, rain or the like",
             "Daylight, but harsh seasonal weather",
@@ -493,7 +493,7 @@
             "Night, with rain or other obscuring effects",
             "Night, with terrible weather and wind"
         ],
-        "Nature": [
+        "nature": [
             "Attack by pack of hostiles",
             "Ambush by single lone hostile",
             "Meet people who dont want to be met",
@@ -503,7 +503,7 @@
             "Nearby feature promises useful loot",
             "Meet hostiles that arent immediately so"
         ],
-        "Friendlies": [
+        "friendlies": [
             "Affable but reclusive hermit",
             "Local herd animal let loose to graze",
             "Government ranger or circuit judge",
@@ -515,13 +515,13 @@
             "Religious recluse or holy person",
             "Impoverished social exile"
         ],
-        "Range": [
+        "range": [
             "Visible from a long distance away",
             "Noticed 1d4 hundred meters away",
             "Noticed only within 1d6 x 10 meters",
             "Noticed only when adjacent to the event"
         ],
-        "Hostiles": [
+        "hostiles": [
             "Bandits in their wilderness hideout",
             "Dangerous locals looking for easy marks",
             "Rabid or diseased large predator",
@@ -535,7 +535,7 @@
             "Harmless-looking but dangerous beast",
             "Confidence man seeking to gull the PCs"
         ],
-        "Feature": [
+        "feature": [
             "Overgrown homestead",
             "Steam prone to flash-flooding",
             "Narrow bridge or beam over deep cleft",
@@ -558,8 +558,8 @@
             "Abandoned vehicle"
         ]
     },
-    "oneroll_npc": {
-        "Background": [
+    "onerollNPC": {
+        "background": [
             "The local underclass or poorest natives",
             "Common laborers or cube workers",
             "Aspiring bourgeoise or upper class",
@@ -567,7 +567,7 @@
             "Minority or foreigners; reroll on 1d4",
             "Offworlders or exotics; reroll on 1d4"
         ],
-        "Role": [
+        "role": [
             "Criminal, thug, thief, swindler",
             "Menial, cleaner, retail worker, servant",
             "Unskilled heavy labor, porter, construction",
@@ -577,7 +577,7 @@
             "Official, bureaucrat, courtier, clerk",
             "Military, soldier, enforcer, law officer"
         ],
-        "Problem": [
+        "problem": [
             "They have significant debt or money woes",
             "A loved one is in trouble; reroll for it",
             "Romantic failure with a desired person",
@@ -589,13 +589,13 @@
             "Theyre pursuing a disastrous purpose",
             "They have no problems worth mentioning"
         ],
-        "Age": [
+        "age": [
             "Unusually young or old for their role",
             "Young adult",
             "Mature prime",
             "Middle-aged or elderly"
         ],
-        "Desire": [
+        "desire": [
             "They want a particular romantic partner",
             "They want money for them or a loved one",
             "They want a promotion in their job",
@@ -609,7 +609,7 @@
             "They want power over those around them",
             "They have everything they want from life"
         ],
-        "Trait": [
+        "trait": [
             "Ambition",
             "Avarice",
             "Bitterness",
