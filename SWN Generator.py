@@ -8,6 +8,9 @@ __email__ = "rgmckay@nevada.unr.edu"
 # 2  Create output macro to insert Roll20 of the events (Excluding encounters)
 # 3  Enable unique party support, user supplies list of party names so output is more streamlined
 
+
+#############################################################################################################
+
 ##IMPORTS##
 import sys
 import os
@@ -16,6 +19,8 @@ import math
 import pprint
 import json
 import easygui
+
+#############################################################################################################
 
 
 def loadJson(filepath):
@@ -50,13 +55,33 @@ def generatePatron():
           patronForce + ' ' + eager + ' ' + reward)
 
 
-def generatePlace():
-    returnString = "Taco"
-    return returnString
+def generatePlace(isWild=False):
+    reward = random.choice(places["places"]["rewards"])
+
+    if isWild == False:
+        civilizedOngoings = random.choice(
+            places["places"]["civilizedOngoings"])
+        wildernessOngoings = ''
+    else:
+        wildernessOngoings = random.choice(
+            places["places"]["wildernessOngoings"])
+        civilizedOngoings = ''
+
+    hazardCategory = random.randint(0, len(places["places"]["hazard"]))
+
+    hazardExample = random.choice(
+        places["places"]["hazard"][hazardList[hazardCategory]]["specificExample"])
+
+    hazardPotDanger = random.choice(
+        places["places"]["hazard"][hazardList[hazardCategory]]["possibleDanger"])
+
+    print(civilizedOngoings + wildernessOngoings + ' ' +
+          hazardCategory + ' ' + hazardExample + ' ' + hazardPotDanger + reward)
 
 
 def generateUrbanEncounter():
-    venue = random.choice(urbanEncounters['urbanEncounters']['generalVenue'])
+    venue = random.choice(
+        urbanEncounters['urbanEncounters']['generalVenue'])
     reasonInvolved = random.choice(
         urbanEncounters['urbanEncounters']['reasonInvolved'])
     eventNature = random.choice(
@@ -83,6 +108,49 @@ def generateWildEncounter():
           ' ' + ranges + ' ' + hostiles)
 
 
+def generateConflict():
+    conflictCategory = random.choice(conflictList)
+
+    conflictSituation = random.choice(
+        conflictTypes['conflictType'][conflictCategory]['overallSituation'])
+
+    conflictFocus = random.choice(
+        conflictTypes['conflictType'][conflictCategory]['specificFocus'])
+
+    print(conflictCategory + ': ' + conflictSituation + ' ' + conflictFocus)
+
+
+def generateNPC():
+    initmanner = random.choice(NPC["npc"]['initManner'])
+    dealOutcome = random.choice(NPC["npc"]['defaultDealOutcome'])
+    motivation = random.choice(NPC["npc"]['motivation'])
+    want = random.choice(NPC["npc"]['want'])
+    power = random.choice(NPC["npc"]['power'])
+    hook = random.choice(NPC["npc"]['hook'])
+
+    print(initmanner + ' ' + dealOutcome + ' ' +
+          motivation + ' ' + want + ' ' + power + ' ' + hook)
+
+
+def generateSimpleNPC():
+    background = random.choice(simpleNPC["onerollNPC"]['background'])
+    role = random.choice(simpleNPC["onerollNPC"]['role'])
+    problem = random.choice(simpleNPC["onerollNPC"]['problem'])
+    age = random.choice(simpleNPC["onerollNPC"]['age'])
+    desire = random.choice(simpleNPC["onerollNPC"]['desire'])
+    trait = random.choice(simpleNPC["onerollNPC"]['trait'])
+
+    print(background + ' ' + role + ' ' + problem +
+          ' ' + age + ' ' + desire + ' ' + trait)
+
+
+#############################################################################################################
+conflictList = ['money', 'revenge', 'power', 'naturalDanger',
+                'religion', 'ideology', 'ethnicity', 'resources']
+
+hazardList = ['social', 'legal', 'environmental',
+              'trap', 'animal', 'sentient', 'decay', 'PC-induced']
+
 problems = loadJson("problem.json")
 patrons = loadJson("patrons.json")
 places = loadJson("places.json")
@@ -92,12 +160,11 @@ urbanEncounters = loadJson("urbanEncounters.json")
 conflictTypes = loadJson("conflictType.json")
 simpleNPC = loadJson("onerollNPC.json")
 
+#############################################################################################################
+
 
 def main():
-    generateProblem()
-    generatePatron()
-    generateUrbanEncounter()
-    generateWildEncounter()
+    generateSimpleNPC()
 
     # If not importing. run main function
 if __name__ == '__main__':
