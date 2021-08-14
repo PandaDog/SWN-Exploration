@@ -40,19 +40,11 @@ def Generate_Roll20_Macro(message):
 
 
 def generateProblem():
-    twist = random.choice(problems['problem']['twists'])
-    restraint = random.choice(problems['problem']['restraints'])
-    print(restraint + '. ' + twist)
+    return grabSimpleData('problem', problems)
 
 
 def generatePatron():
-    trust = random.choice(patrons['Trustworthiness'])
-    challenge = random.choice(patrons['Challenge'])
-    patronForce = random.choice(patrons['Force'])
-    eager = random.choice(patrons['Eagerness'])
-    reward = random.choice(patrons['Potential_Non-Cash_Rewards'])
-    print(trust + ' ' + challenge + ' ' +
-          patronForce + ' ' + eager + ' ' + reward)
+    return grabSimpleData('patron', patrons)
 
 
 def generatePlace(isWild=False):
@@ -80,32 +72,11 @@ def generatePlace(isWild=False):
 
 
 def generateUrbanEncounter():
-    venue = random.choice(
-        urbanEncounters['urbanEncounters']['generalVenue'])
-    reasonInvolved = random.choice(
-        urbanEncounters['urbanEncounters']['reasonInvolved'])
-    eventNature = random.choice(
-        urbanEncounters['urbanEncounters']['eventNature'])
-    conflictReason = random.choice(
-        urbanEncounters['urbanEncounters']['conflict'])
-    atagonist = random.choice(urbanEncounters['urbanEncounters']['antagonist'])
-    print(venue + ' ' + reasonInvolved + ' ' + eventNature +
-          ' ' + conflictReason + ' ' + atagonist)
+    return grabSimpleData("urbanEncounters", urbanEncounters)
 
 
 def generateWildEncounter():
-    weather = random.choice(
-        wildEncounters['wildernessEncounters']['weatherLighting'])
-    nature = random.choice(
-        wildEncounters['wildernessEncounters']['nature'])
-    friend = random.choice(
-        wildEncounters['wildernessEncounters']['friendlies'])
-    ranges = random.choice(
-        wildEncounters['wildernessEncounters']['range'])
-    hostiles = random.choice(
-        wildEncounters['wildernessEncounters']['hostiles'])
-    print(weather + ' ' + nature + ' ' + friend +
-          ' ' + ranges + ' ' + hostiles)
+    return grabSimpleData("wildernessEncounters", wildEncounters)
 
 
 def generateConflict():
@@ -121,30 +92,26 @@ def generateConflict():
 
 
 def generateNPC():
-    initmanner = random.choice(NPC["npc"]['initManner'])
-    dealOutcome = random.choice(NPC["npc"]['defaultDealOutcome'])
-    motivation = random.choice(NPC["npc"]['motivation'])
-    want = random.choice(NPC["npc"]['want'])
-    power = random.choice(NPC["npc"]['power'])
-    hook = random.choice(NPC["npc"]['hook'])
-
-    print(initmanner + ' ' + dealOutcome + ' ' +
-          motivation + ' ' + want + ' ' + power + ' ' + hook)
+    return grabSimpleData('npc', NPC)
 
 
 def generateSimpleNPC():
-    background = random.choice(simpleNPC["onerollNPC"]['background'])
-    role = random.choice(simpleNPC["onerollNPC"]['role'])
-    problem = random.choice(simpleNPC["onerollNPC"]['problem'])
-    age = random.choice(simpleNPC["onerollNPC"]['age'])
-    desire = random.choice(simpleNPC["onerollNPC"]['desire'])
-    trait = random.choice(simpleNPC["onerollNPC"]['trait'])
-
-    print(background + ' ' + role + ' ' + problem +
-          ' ' + age + ' ' + desire + ' ' + trait)
+    return grabSimpleData("onerollNPC", simpleNPC)
 
 
-#############################################################################################################
+def grabSimpleData(firstElement, table, noParent=False):
+    returnVal = []
+
+    if noParent == False:
+        for x in table[firstElement]:
+            returnVal.append(random.choice(table[firstElement][str(x)]))
+        return returnVal
+    else:
+        for x in table:
+            returnVal.append(random.choice(table[x]))
+
+
+    #############################################################################################################
 conflictList = ['money', 'revenge', 'power', 'naturalDanger',
                 'religion', 'ideology', 'ethnicity', 'resources']
 
@@ -159,12 +126,14 @@ wildEncounters = loadJson("wildernessEncounters.json")
 urbanEncounters = loadJson("urbanEncounters.json")
 conflictTypes = loadJson("conflictType.json")
 simpleNPC = loadJson("onerollNPC.json")
+adventureSeeds = loadJson("adventureSeeds.json")
 
 #############################################################################################################
 
 
 def main():
-    generateSimpleNPC()
+    print(generateNPC())
+    print(generateNPC())
 
     # If not importing. run main function
 if __name__ == '__main__':
