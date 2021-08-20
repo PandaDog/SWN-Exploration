@@ -1,21 +1,28 @@
+# nameGeneratorPython.py
+# Modified Python translation of donjon's name generator: https://donjon.bin.sh/code/name/
+# Uses a set of sample names in the form of a JSON file to generate new names using markov chains
+
+# TODO:
+# Add sample usage
+
 import math, random, easygui, json
 
 nameSet = {}
 chainCache = {}
 
-#most dictionary calls use dictionary.get() to handle KeyError exceptions
+# Most dictionary calls use dictionary.get() to handle KeyError exceptions
 
-def generateName(type):
+def generateName(type): # returns a single name using sample nameSet = {type: ...}
     chain = markovChain(type)
     if (chain):
         return markovName(chain)
     return ''
 
-def generateNameList(type, num):
+def generateNameList(type, num): # returns a list of num names using sample nameSet = {type: ...}
     nameList = []
     i = 0
     while (i < num):
-        nameList.append(generateName(type)); 
+        nameList.append(generateName(type));
         i += 1
     return nameList
 
@@ -126,49 +133,62 @@ def selectLink(chain,key):
         i += 1
     return False
 
-def main():
+def getFilepath(): # this should be removed and added to a separate library
+
     print("Select your name sample.")
     filepath = easygui.fileopenbox()
+
+    return filepath
+
+def loadJSON(filepath): # this should be removed and added to a separate library
+
     tmp = open(filepath)
     dictVar = json.load(tmp)
 
-    nameSetList = []
-    #check if sample has object 'nameSet'
-    try: 
-        for i in dictVar['nameSet']:
-            nameSetList.append(i)
-    except:
-        print("Name sample has no object 'nameSet'!")
-    
-    #count name samples
-    n = 0
-    for i in nameSetList:
-        n += 1
-    #if there are more than one sample in set, select sample
+    return dictVar
 
-    if n > 1:
-        print("There are multiple sets in this sample.")
-        n = 1
-        for i in nameSetList:
-            print("For '" + str(i) + "' enter " + str(n) + ".")
-            n += 1
-        n = int(input())
-        sample = {nameSetList[n-1]: dictVar['nameSet'][nameSetList[n-1]]}
-        sampleName = str(list(sample)[0])
-        
+def parseDictionary(dictVar, active = False): # appends sample dictionary to nameSet{}; returns sample's top-level string for generateName(), generateNameList()
+
+    # check if sample has object 'nameSet'
+
+    try: 
+        length = len(dictVar['nameSet'])
+    except:
+        return False
+
+    # if there is more than one sample in set, prompt to select set if active == True; otherwise, merge sets
+
+    if (length > 1):
+        nameSetList = list(dictVar['nameSet'])
+        if (active):
+            print("There are multiple sets in this sample.")
+            n = 1
+            for i in dictVar['nameSet']:
+                print(str(n) + ": " + str(i))
+                n += 1
+            n = int(input())
+            sample = {nameSetList[n-1]: dictVar['nameSet'][nameSetList[n-1]]}
+        else:
+            sample = {'merged': []}
+            for i in dictVar['nameSet']:
+                for j in dictVar['nameSet'][i]:
+                    sample['merged'].append(j)
     else:
         sample = dictVar['nameSet']
-        sampleName = str(list(sample)[0])
 
     global nameSet
     nameSet.update(sample)
 
-    nameQuantity = int(input("How many names would you like generated?\n"))
+    sampleName = str(list(sample)[0])
 
+    return sampleName
+
+def main():
+
+    dictVar = loadJSON(getFilepath())
+    sampleName = parseDictionary(dictVar, True)
+    nameQuantity = int(input("How many names would you like generated?\n"))
     print(generateNameList(sampleName,nameQuantity))
 
 if __name__ == '__main__':
     main()
-
-
-
